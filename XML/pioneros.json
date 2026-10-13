@@ -1,0 +1,43 @@
+{
+	"historia_computacion": {
+		"personaje_historico": [
+			{
+				"nombre": "Alan Turing",
+				"tiempo_de_vida": "1912-1954",
+				"lugar_nacimiento": {
+					"pais": "Reino Unido",
+					"ciudad": "Londres"
+				},
+				"aportaciones": "Creo el concepto teorico de la maquina de Turing, que sento las bases de la informatica moderna.",
+				"premios": {
+					"ganados": "0"
+				}
+			},
+			{
+				"nombre": "Ada Lovelace",
+				"tiempo_de_vida": "1815-1852",
+				"lugar_nacimiento": {
+					"pais": "Reino Unido",
+					"ciudad": "Londres"
+				},
+				"aportaciones": "Es considerada la primera programadora de la historia.",
+				"premios": {
+					"ganados": "0"
+				}
+			},
+			{
+				"nombre": "Charles Babbage",
+				"tiempo_de_vida": "1791-1871",
+				"lugar_nacimiento": {
+					"pais": "Reino Unido",
+					"ciudad": "Londres"
+				},
+				"aportaciones": "Es conocido como el padre de la computadora.",
+				"premios": {
+					"ganados": "1",
+					"descripcion": "Medalla de Oro de la Real Sociedad Astronomica en 1824"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- Nombre completo
+
+Fecha de nacimiento y Lugar de nacimiento
+
+Hitos/Aportaciones clave 
+
+Premios o reconocimientos obtenidos
+
+Fecha de fallecimiento (en caso de haber fallecido)-->
+
+<!--Primer personaje-->
+<historia_computacion>
+    <personaje_historico>
+        <nombre>Alan Turing</nombre>
+        <tiempo_de_vida>1912-1954</tiempo_de_vida>
+        <lugar_nacimiento pais="Reino Unido">Londres</lugar_nacimiento>
+        <aportaciones>Creo el concepto teorico de la maquina de Turing, 
+        que sento las bases de la informatica moderna.</aportaciones>
+        <premios ganados ="0"></premios>
+    </personaje_historico>
+    
+    <!--Segundo personaje-->
+    <personaje_historico>
+        <nombre>Ada Lovelace</nombre>
+        <tiempo_de_vida>1815-1852</tiempo_de_vida>
+        <lugar_nacimiento pais="Reino Unido">Londres</lugar_nacimiento>
+        <aportaciones>Es considerada la primera programadora de la historia.</aportaciones>
+        <premios ganados ="0"></premios>
+    </personaje_historico>
+
+    <!-- Tercer personaje-->
+     <personaje_historico>
+        <nombre>Charles Babbage</nombre>
+        <tiempo_de_vida>1791-1871</tiempo_de_vida>
+        <lugar_nacimiento pais="Reino Unido">Londres</lugar_nacimiento>
+        <aportaciones>Es conocido como el padre de la computadora.</aportaciones>
+        <premios ganados ="1">Medalla de Oro de la Real Sociedad Astronomica en 1824</premios>
+    </personaje_historico>
+</historia_computacion>

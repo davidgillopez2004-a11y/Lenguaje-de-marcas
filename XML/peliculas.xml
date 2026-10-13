@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Pelicula 1-->
+
+<peliculas>
+    <pelicula titulo = "Back to the Future" lanzamiento = "1985" duracion = "116 minutos" lugar_lanzamiento="Estados Unidos">
+        <director>Robert Zemeckis</director>
+        <guion>Robert Zemeckis, Bob Gale</guion>
+        <musica>Alan Silvestri</musica>
+        <fotografia>Dean Cundey</fotografia>
+        <reparto personas="6">
+            <persona>Michael J. Fox</persona>
+            <persona>Christopher Lloyd</persona>
+            <persona>Lea Thompson</persona>
+            <persona>Crispin Glover</persona>
+            <persona>Thomas F. Wilson</persona>
+            <persona>Claudia Wells</persona>
+        </reparto>
+        <productoras>
+            <productora>Universal Pictures</productora>
+            <productora>Amblin Entertainment</productora>
+        </productoras>
+        <generos>
+            <genero>Ciencia ficcion</genero>
+            <genero>Comedia</genero>
+            <genero>Viajes en el tiempo</genero>
+        </generos>
+        <saga parte="1 de 3">Regreso al futuro</saga>
+        <grupos>
+            <grupo>Regreso al Futuro</grupo>
+            <grupo>DeLorean</grupo>
+        </grupos>
+        <sinopsis>
+            Marty McFly, un adolescente de los anios 80, es enviado accidentalmente al anios 1955 en un DeLorean modificado como maquina del tiempo 
+            por el excentrico cientifico Doc Brown. Alli debera asegurarse de que sus futuros padres se enamoren, o de lo contrario dejara de existir.
+        </sinopsis>
+    </pelicula>
+
+    <!--Pelicula 2-->
+    
+    <pelicula>
+
+    </pelicula>
+</peliculas>
