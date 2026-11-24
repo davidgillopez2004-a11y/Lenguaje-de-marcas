@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    
+    <h2>Relleva tu CV</h2>
+
+    <form action="https://www.jacaranda-brenes.org/lmgsi/consultado.php" method="post"></form>
+        <div>
+            <label>Nombre</label> 
+            <input type="text" maxlength="30" placeholder="Pepe..."> <br><br>
+        </div>
+
+        <div>
+            <label>Apellidos</label>
+            <input type="text" maxlength="80" placeholder="Marin Duran"> <br><br>
+        </div>
+
+        <div>
+            <label>Contraseña</label>
+            <input type="password" maxlength="10"> <br><br>
+        </div>
+
+        <div>
+            <label>DNI</label>
+            <input type="text" placeholder="22556699P" maxlength="9" pattern="^[0-9]{8}[A-Za-z]$" required> <br><br>
+        </div>
+
+        <div>
+            <label>Sexo</label>
+            <input type="radio" name="hombre">hombre</input>
+            <input type="radio" name="mujer">mujer</input> <br><br>
+        </div>
+
+        <div>
+            <label>Incluir mi foto</label>
+            <input type="text">
+            <input type="button" value="Enviar"> <br><br>
+        </div>
+
+        <div>
+            <input type="checkbox" checked>
+            <label>Suscribirme al boletin de novedades</label> <br><br>
+        </div>
+
+        <div>
+            <input type="button" value="Guardar cambios">
+            <input type="button" value="Borrar los datos introducidos">
+        </div>
+    </form>
+
+</body>
+</html>
