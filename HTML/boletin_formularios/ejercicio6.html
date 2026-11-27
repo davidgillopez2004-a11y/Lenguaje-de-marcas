@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <h1>Informacion sobre el producto</h1>
+
+    <fieldset>
+        <legend>Datos basicos</legend>
+        <div>
+            <label>Nombre</label>
+            <input type="text" name="Nombre" placeholder="Pepe"><br><br>
+        </div>
+
+        <div >
+            <label>Descripcion</label>
+            <input type="" name="Descripcion" style="width: 200px; height: 100px;" placeholder="Escribe la descripcion justo aqui" maxlength="800"><br><br>
+        </div>
+
+        <div>
+            <label>Foto</label>
+            <input type="text" placeholder="Introduce foto"><input type="button" value="Elegir..."> <br><br>
+        </div>
+
+        <div>
+            <input type="checkbox">
+            <label>Añadir contador de visitas</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Datos Economicos</legend>
+        <div>
+            <label>Precio</label>
+            <input type="text" size="1">€ <br><br>
+        </div>
+
+        <div>
+            <label>Impuestos</label>
+            <select>
+                <option value="1">4%</option>
+                <option value="2">7%</option>
+                <option value="3">16%</option>
+                <option value="4">25%</option> 
+            </select> <br><br>
+        </div>
+
+        <div>
+            <label>Promocion</label><br>
+            <input type="radio" name="promocion">Ninguno <br>
+            <input type="radio" name="promocion">Transporte Publico <br>
+            <input type="radio" name="promocion">Descuentos 5%
+        </div>
+    </fieldset>
+</body>
+</html>
